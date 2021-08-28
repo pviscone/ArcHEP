@@ -413,6 +413,11 @@ gst-plugins-ugly
 gst-plugins-good
 xdg-desktop-portal-gtk
 
+##### want to add/use the Chaotic repo
+
+chaotic-mirrorlist
+chaotic-keyring
+
 # everything above comes from archiso releng folder
 #######################################################
 ###                    ALCI                         ###
