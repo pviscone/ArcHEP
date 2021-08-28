@@ -1,0 +1,226 @@
+# Packages (remember to set correct mirror in endevourOS)
+
+RICOPIARE PACCHETTI ALTRA BUILD
+
+
+### Plugins
+#### ZSH plugins
+colorls (set alias : alias ls="colorls --sd -A" in .zshrc)
+sudo 
+zsh-interactive-cd (or enhancd)
+zsh-colored-man-pages
+
+
+#### Rofi plugins
+rofi-zeal (a mano)
+
+
+#### Polybar plugins
+polybar-gmail
+info-hackspeed
+openweathermap-fullfeatured
+polybar_another_battery
+polybar-spotify-module 
+polybar-browsermediacontrol
+polybar-redshift
+polybar-qbittorrent
+
+
+## Need configuration
+mathematica *last*
+
+
+
+## IDK if i have to configure them
+latex with packages (if exist one single package...or overleaf)
+kite (or analog)
+vnc client/server (don't know which or teamviewer)
+
+
+
+## No need to configure them (last)
+python
+python3 
+gcc
+gcc-fortran
+ffmpeg
+vlc 
+gimp
+inkscape
+zathura
+okular
+pdfedit
+spotify
+neofetch
+root
+root-cuda
+cern-vdt
+geant4 
+hepmc
+hepmc-docs
+fluka
+flair
+openfoam
+blas
+openblas
+lapac
+cuda
+cuda-tools
+jupyter-vim
+stellarium
+gnuplot
+qucs
+perl
+libreoffice
+thunderbird
+vmware
+teams
+zoom
+google meet
+skype
+telegram
+whatsapp
+discord
+onedrive
+write
+xournalpp-dev
+calculator (don't know which)
+calibre
+
+mkveditor (don't remember the name)
+lz4
+jupyter/ipython
+openmp
+openmpi
+ghdl (vhdl compiler)
+gsl (gnu scientific libraries)
+reaper
+obs-studio
+simplescreenrecorder
+
+Flowblade (videoeditor)
+qbitorrent
+julia
+rust
+node.js (not really...)
+ghc (haskell compiler)
+lua
+apache-spark
+sqlite3
+ruby
+mps youtube (or ytfzf with rofi integration)
+gnome-calculator
+figlet
+dd
+tensorflow
+tensorflow-cuda (without python (c++ libraries))
+tensorboard
+
+
+# Python libraries
+numpy
+keras
+tensorflow
+tensorflow-cuda
+pytorch
+pytorch-cuda
+astropy
+gwpy
+pycb
+matplotlib
+pandas
+seaborn
+numba
+theano
+caffe
+astropy
+pyroot
+sklearn
+gammapy
+scipy
+requests
+beautifulsoup
+selenium
+pygame
+pillow
+tkinter
+moviepy
+pytest
+opencv
+pygpu
+django
+ntlk
+arduino
+lightgbm
+poetry
+scrappy
+asyncio
+plotly
+pycaret
+xgboost
+urllib3
+pip/pip3
+pyspark
+pysqlite3
+backtrader
+networkx
+openmpi
+jupyroot
+btrfs
+bluepy
+cryptography
+docker
+docs
+flask
+geopy
+gnuplot
+opengl
+pymongo
+mpmath
+pip
+pipenv
+pyopencl
+sh
+virtualenv
+invoke
+websockets
+wesocket-client
+uproot
+uproot-docs
+
+## (maybe included in python, verify)
+dis
+pdb
+multithreading
+itertools
+datetime
+futures
+json
+
+
+
+
+# DO 
+ssd optimization
+firefox extension
+vscode extension
+mathematica key
+dotfiles
+boot grub with multiple video driver option
+graphical installer (btrfs with subvolumes and zram)
+customize wallpapers and labels
+review basic packages of archiso and delete the obsolete ones
+add virtual keyboard
+add automatic screen rotation
+search for neovim plugin
+search interesting packages in the actual fedora installation
+Set gtk3 themes (see packages) and manage them with lxapparence
+Set a global menu.Install xfce4 panel, put it in polybar and use vala-panel-appmenu
+Try spotify-adblocker
+set dynamic desktops on bspwm
+Use qemu to test iso with run_archiso.sh
+add plugins to aur packages
+optimize MAKEPKG.conf with multithread and avoiding compression
+## Done 
+see if there are other scientific packages like blas, lapack, etc. that have to be installed
+

@@ -1,0 +1,10 @@
+#DON'T LEAVE BLANK LINES, COMMENT THEM
+paru
+zramd
+timeshift
+timeshift-autosnap
+spacefm
+neovide-bin
+visual-studio-code-bin
+zeal
+zsh-fast-syntax-highlighting

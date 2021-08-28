@@ -1,0 +1,63 @@
+NetworkManager
+
+Created symlink /etc/systemd/system/multi-user.target.wants/NetworkManager.service → /usr/lib/systemd/system/NetworkManager.service.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service → /usr/lib/systemd/system/NetworkManager-dispatcher.service.
+Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service → /usr/lib/systemd/system/NetworkManager-wait-online.service.
+
+
+bluetooth
+Created symlink /etc/systemd/system/dbus-org.bluez.service → /usr/lib/systemd/system/bluetooth.service.
+Created symlink /etc/systemd/system/bluetooth.target.wants/bluetooth.service → /usr/lib/systemd/system/bluetooth.service.
+
+
+cups.service
+Created symlink /etc/systemd/system/printer.target.wants/cups.service → /usr/lib/systemd/system/cups.service.
+Created symlink /etc/systemd/system/sockets.target.wants/cups.socket → /usr/lib/systemd/system/cups.socket.
+Created symlink /etc/systemd/system/multi-user.target.wants/cups.path → /usr/lib/systemd/system/cups.path.
+
+sshd
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+
+
+avahi-daemon
+Created symlink /etc/systemd/system/dbus-org.freedesktop.Avahi.service → /usr/lib/systemd/system/avahi-daemon.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/avahi-daemon.service → /usr/lib/systemd/system/avahi-daemon.service.
+Created symlink /etc/systemd/system/sockets.target.wants/avahi-daemon.socket → /usr/lib/systemd/system/avahi-daemon.socket.
+
+tlp
+Created symlink /etc/systemd/system/multi-user.target.wants/tlp.service → /usr/lib/systemd/system/tlp.service
+
+
+reflector.timer
+Created symlink /etc/systemd/system/timers.target.wants/reflector.timer → /usr/lib/systemd/system/reflector.timer.
+
+
+fstrim.timer
+Created symlink /etc/systemd/system/timers.target.wants/fstrim.timer → /usr/lib/systemd/system/fstrim.timer.
+
+
+
+libvirtd
+Created symlink /etc/systemd/system/multi-user.target.wants/libvirtd.service → /usr/lib/systemd/system/libvirtd.service.
+Created symlink /etc/systemd/system/sockets.target.wants/virtlockd.socket → /usr/lib/systemd/system/virtlockd.socket.
+Created symlink /etc/systemd/system/sockets.target.wants/virtlogd.socket → /usr/lib/systemd/system/virtlogd.socket.
+Created symlink /etc/systemd/system/sockets.target.wants/libvirtd.socket → /usr/lib/systemd/system/libvirtd.socket.
+Created symlink /etc/systemd/system/sockets.target.wants/libvirtd-ro.socket → /usr/lib/systemd/system/libvirtd-ro.socket.
+
+
+firewalld (non attivato)
+
+
+acpid
+Created symlink /etc/systemd/system/multi-user.target.wants/acpid.service → /usr/lib/systemd/system/acpid.service.
+
+
+zramd.service
+Created symlink /etc/systemd/system/multi-user.target.wants/zramd.service → /usr/lib/systemd/system/zramd.service.
+
+gdm
+Created symlink /etc/systemd/system/display-manager.service → /usr/lib/systemd/system/gdm.service.
+
+
+
+
