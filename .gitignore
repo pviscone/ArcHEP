@@ -1,5 +1,5 @@
-# Object file
-*.o
+archiso/aur/
+archiso/aur_repo/
+work
+out
 
-# Ada Library Information
-*.ali
