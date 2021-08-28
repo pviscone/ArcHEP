@@ -47,8 +47,8 @@ less
 lftp
 libfido2
 libusb-compat
-linux
-linux-headers
+linux-lts
+linux-lts-headers
 linux-atm
 linux-firmware
 livecd-sounds
@@ -342,7 +342,7 @@ hplip
 ########################################
 #            Applications
 ########################################
-neovide-bin
+neovide-git
 visual-studio-code-bin
 rxvt-unicode
 firefox
@@ -398,8 +398,20 @@ zeal
 
 
 
-
-
+alsa-firmware
+alsa-tools
+alsa-ucm-conf
+alsa-plugins
+alsa-oss
+helvum
+pipewire-media-session
+easyeffects
+ffmpeg
+gstreamer
+gst-libav
+gst-plugins-ugly
+gst-plugins-good
+xdg-desktop-portal-gtk
 
 # everything above comes from archiso releng folder
 #######################################################

@@ -4,7 +4,7 @@ zramd
 timeshift
 timeshift-autosnap
 spacefm
-neovide-bin
+neovide-git
 visual-studio-code-bin
 zeal
 zsh-fast-syntax-highlighting
