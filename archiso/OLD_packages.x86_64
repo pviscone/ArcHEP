@@ -47,8 +47,8 @@ less
 lftp
 libfido2
 libusb-compat
-linux
-linux-headers
+linux-lts
+linux-lts-headers
 linux-atm
 linux-firmware
 livecd-sounds
@@ -118,29 +118,40 @@ xfsprogs
 xl2tpd
 zsh
 
+
 #BASE-ERMANNO
 grub
 grub-btrfs
+efibootmgr
 networkmanager
 network-manager-applet
 dialog
+wpa_supplicant
+mtools
+dosfstools
+reflector
 base-devel
 avahi
 xdg-user-dirs
 xdg-utils
 gvfs
 gvfs-smb
+nfs-utils
 inetutils
 dnsutils
 bluez
 bluez-utils
 cups
 hplip
+alsa-utils
 pipewire
 pipewire-alsa
 pipewire-pulse
 pipewire-jack
 bash-completion
+openssh
+rsync
+reflector
 acpi
 acpi_call
 tlp
@@ -149,27 +160,31 @@ qemu
 qemu-arch-extra
 edk2-ovmf
 bridge-utils
+dnsmasq
 vde2
 iptables-nft
 ipset
 firewalld
 flatpak
+sof-firmware
 nss-mdns
 acpid
 os-prober
+ntfs-3g
+terminus-font
 
-
+##gnome
 #####GNOME#######
 baobab
 cheese
 eog
-#epiphany
+epiphany
 evince
 file-roller
 gdm
 gedit
 gnome-backgrounds
-#gnome-books
+gnome-books
 gnome-calculator
 gnome-calendar
 gnome-characters
@@ -182,37 +197,39 @@ gnome-documents
 gnome-font-viewer
 gnome-keyring
 gnome-logs
-#gnome-maps
+gnome-maps
 gnome-menus
-#gnome-music
+gnome-music
 gnome-photos
 gnome-remote-desktop
-#gnome-screenshot
+gnome-screenshot
 gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
 gnome-software
 gnome-system-monitor
-#gnome-terminal
+gnome-terminal
 gnome-themes-extra
 gnome-user-docs
 gnome-user-share
 gnome-video-effects
 gnome-weather
 grilo-plugins
+gvfs
 gvfs-afc
 gvfs-goa
 gvfs-google
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
+gvfs-smb
 mutter
-#nautilus
-#orca
+nautilus
+orca
 rygel
-#sushi
-#totem
+sushi
+totem
 tracker
 tracker-miners
 tracker3
@@ -225,47 +242,19 @@ simple-scan
 
 
 
-####gnome-extra####
-accerciser
-dconf-editor
-devhelp
-geary
-ghex
-glade
-gnome-builder
-gnome-code-assistance
-gnome-connections
-gnome-devel-docs
-gnome-multi-writer
-gnome-nettool
-gnome-recipes
-gnome-sound-recorder
-gnome-todo
-gnome-tweaks
-gnome-usage
-hitori
-lightsoff
-polari
-sysprof
 
-
-####sostituti######
-vlc
-alacritty
-flameshot
-7-zip
-firefox
-thunar
-zathura
-foliate
 
 
 
 #GNOME-ERMANNO
+gnome-extra
+firefox
+gnome-tweaks
 simplescreenrecorder
 arc-gtk-theme
 arc-icon-theme
 obs-studio
+vlc
 dina-font
 tamsyn-font
 bdf-unifont
@@ -302,9 +291,8 @@ noto-fonts-cjk
 noto-fonts-emoji
 
 
-
 ########################################
-#               Video Driver
+#               Video
 ########################################
 xf86-video-intel
 xf86-video-vmware
@@ -322,25 +310,47 @@ libva-vdpau-driver
 nvidia-settings
 nvtop
 amdvlk
-vulkan-devel
+
+###AUR
+paru
+zramd
+timeshift
+timeshift-autosnap
+
+
+
+pcmanfm
+pavucontrol
+mpd
+mpc
+ncmpcpp
+playerctl
 
 
 #######################################
 #            Other drivers
-######################################
+########################################
 xf86-input-wacom
 xf86-input-libinput
+bluez
+bluez-utils
 bluez-tools
 blueman
+cups
+hplip
 
-
-
-######     Applications
+########################################
+#            Applications
+########################################
 neovide-git
 visual-studio-code-bin
+rxvt-unicode
+firefox
+kitty
 leafpad
+file-roller
+flameshot
 neovim
-
 
 
 #########################################
@@ -357,21 +367,27 @@ zsh-history-substring-search
 zsh-theme-powerlevel10k
 
 
-
-
-############   Utility
+########################################
+#              Utility
+########################################
 timeshift
 timeshift-autosnap
+networkmanager
+network-manager-applet
 htop
 bpytop
 neofetch
 archiso
 gparted
+ntfs-3g
+tlp
 powertop
 arandr
 autorandr
 nnn
 ranger
+bash-completion
+dialog
 z
 tar
 wget
@@ -379,16 +395,9 @@ nodejs
 git
 net-tools
 zeal
-###AUR####
-paru
-zramd
-pcmanfm
 
 
 
-##### Audio/Video ####
-######################
-###Driver####
 alsa-firmware
 alsa-tools
 alsa-ucm-conf
@@ -403,26 +412,22 @@ gst-libav
 gst-plugins-ugly
 gst-plugins-good
 xdg-desktop-portal-gtk
-###Software###
-pavucontrol
-mpd
-mpc
-ncmpcpp
-playerctl
-
-
 
 ##### want to add/use the Chaotic repo
+
 chaotic-mirrorlist
 chaotic-keyring
-
-
 
 # everything above comes from archiso releng folder
 #######################################################
 ###                    ALCI                         ###
+#######################################################
+
+#######################################################
 ###  PACKAGES THAT ARE REMOVED AFTER INSTALLATION   ###
 ###             VIA CALAMARES CONFIG                ###
+#######################################################
+
 alci-dwm
 #alci-dwm-nemesis
 alci-calamares
@@ -434,15 +439,21 @@ alci-calamares-config-btrfs
 #alci-calamares-config-pure
 #alci-calamares-config-zen
 xterm
+
+
 sddm
+bash-completion
 dex
 libxinerama
 make
 xorg-xkill
+xterm
 xorg-xrdb
 
 
 
 
-######## COMPILERS,ETC.
-gcc
+
+
+
+

@@ -8,3 +8,4 @@ neovide-git
 visual-studio-code-bin
 zeal
 zsh-fast-syntax-highlighting
+
