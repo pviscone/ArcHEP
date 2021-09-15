@@ -8,4 +8,21 @@ neovide-git
 visual-studio-code-bin
 zeal
 zsh-fast-syntax-highlighting
-
+tex-match-bin
+joplin-desktop
+onlyoffice-bin
+insync
+write_stylus
+olive-git
+#olive depend.
+opentimelineio-git
+7-zip
+uasm
+typora
+chrome-gnome-shell
+squeekboard
+detect-tablet-mode-git
+pop-shell-shortcuts-git
+pop-launcher-git
+gnome-shell-extension-pop-shell-git
+feedbackd

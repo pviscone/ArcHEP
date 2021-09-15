@@ -158,72 +158,7 @@ nss-mdns
 acpid
 os-prober
 
-
-#####GNOME#######
-baobab
-cheese
-eog
-#epiphany
-evince
-file-roller
-gdm
-gedit
-gnome-backgrounds
-#gnome-books
-gnome-calculator
-gnome-calendar
-gnome-characters
-gnome-clocks
-gnome-color-manager
-gnome-contacts
-gnome-control-center
-gnome-disk-utility
-gnome-documents
-gnome-font-viewer
-gnome-keyring
-gnome-logs
-#gnome-maps
-gnome-menus
-#gnome-music
-gnome-photos
-gnome-remote-desktop
-#gnome-screenshot
-gnome-session
-gnome-settings-daemon
-gnome-shell
-gnome-shell-extensions
-gnome-software
-gnome-system-monitor
-#gnome-terminal
-gnome-themes-extra
-gnome-user-docs
-gnome-user-share
-gnome-video-effects
-gnome-weather
-grilo-plugins
-gvfs-afc
-gvfs-goa
-gvfs-google
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-mutter
-#nautilus
-#orca
-rygel
-#sushi
-#totem
-tracker
-tracker-miners
-tracker3
-tracker3-miners
-vino
-xdg-user-dirs-gtk
-yelp
-gnome-boxes
-simple-scan
-
-
+gnome
 
 ####gnome-extra####
 accerciser
@@ -248,18 +183,27 @@ lightsoff
 polari
 sysprof
 
+#####gnome-circle####
+drawing
+fragments
+
+#gnome-extension
+chrome-gnome-shell
+gnome-shell-extension-pop-shell-git
+
 
 ####sostituti/aggiunte######
 vlc
 alacritty
 flameshot
-7-zip
 firefox
 thunar
 zathura
 foliate
 okular
-
+##AUR##
+7-zip
+uasm
 
 #GNOME-ERMANNO
 simplescreenrecorder
@@ -332,15 +276,17 @@ xf86-input-wacom
 xf86-input-libinput
 bluez-tools
 blueman
+iio-sensor-proxy
 
 
 
 ######     Applications
 neovide-git
 visual-studio-code-bin
-leafpad
 neovim
-
+squeekboard
+feedbackd
+detect-tablet-mode-git
 
 
 #########################################
@@ -379,10 +325,14 @@ nodejs
 git
 net-tools
 zeal
+qreator
+zbar
 ###AUR####
 paru
 zramd
 pcmanfm
+
+
 
 
 
@@ -394,27 +344,32 @@ alsa-tools
 alsa-ucm-conf
 alsa-plugins
 alsa-oss
-helvum
 pipewire-media-session
 easyeffects
 ffmpeg
 gstreamer
 gst-libav
-gst-plugins-ugly
-gst-plugins-good
+#gst-plugins-ugly
+#gst-plugins-good
 xdg-desktop-portal-gtk
+
 ###Software###
 pavucontrol
 mpd
 mpc
 ncmpcpp
 playerctl
+ardour
+olive-git
+youtube-dl
+mps-youtube
 
-
+#AUR# (olive depend.)
+opentimelineio-git
 
 ##### want to add/use the Chaotic repo
-chaotic-mirrorlist
-chaotic-keyring
+#chaotic-mirrorlist
+#chaotic-keyring
 
 
 
@@ -446,3 +401,16 @@ xorg-xrdb
 
 ######## COMPILERS,ETC.
 gcc
+
+
+
+######## Documents ########
+onlyoffice-bin
+joplin-desktop
+tex-match-bin
+xournalpp
+write_stylus
+typora
+
+######### cloud #########
+insync

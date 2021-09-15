@@ -1,0 +1,5 @@
+opentimelineio-git #olive
+uasm #7-zip
+pop-shell-shortcuts-git
+pop-launcher-git
+feedbackd (squeekboard)

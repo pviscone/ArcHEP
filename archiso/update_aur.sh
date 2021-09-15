@@ -1,7 +1,7 @@
 #!/bin/bash
 filename='aur.txt'
-aur_repo=${PWD}/aur_repo
-aur=${PWD}/aur
+aur_repo=${PWD}/../aur/aur_repo
+aur=${PWD}/../aur/aur
 while read line; do
     if [[ $line != "#"* ]]; then
 	    cd ${aur}
