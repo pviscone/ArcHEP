@@ -59,8 +59,8 @@ firewalld
 Created symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service → /usr/lib/systemd/system/firewalld.service.
 Created symlink /etc/systemd/system/multi-user.target.wants/firewalld.service → /usr/lib/systemd/system/firewalld.service.
 
-gdm
-Created symlink /etc/systemd/system/display-manager.service → /usr/lib/systemd/system/gdm.service.
+sddm
+Created symlink /etc/systemd/system/display-manager.service → /usr/lib/systemd/system/sddm.service.
 
 
 

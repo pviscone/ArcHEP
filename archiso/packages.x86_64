@@ -158,58 +158,97 @@ nss-mdns
 acpid
 os-prober
 
-gnome
-
-####gnome-extra####
-accerciser
-dconf-editor
-devhelp
-geary
-ghex
-glade
-gnome-builder
-gnome-code-assistance
-gnome-connections
-gnome-devel-docs
-gnome-multi-writer
-gnome-nettool
-gnome-recipes
-gnome-sound-recorder
-gnome-todo
-gnome-tweaks
-gnome-usage
-hitori
-lightsoff
-polari
-sysprof
-
-#####gnome-circle####
-drawing
-fragments
-
-#gnome-extension
-chrome-gnome-shell
-gnome-shell-extension-pop-shell-git
+########KDE##########
+xorg
+sddm
+plasma
+kde-applications
+papirus-icon-theme
+kdenlive
+materia-kde
+kcm-wacomtablet
+kvantum-qt5
+i3-gaps
 
 
-####sostituti/aggiunte######
-vlc
-alacritty
-flameshot
-firefox
+##########File managers########
 thunar
-zathura
-foliate
-okular
+nnn
+ranger
+z
 ##AUR##
 7-zip
 uasm
+pcmanfm
 
-#GNOME-ERMANNO
+#########Documents/Editor#########
+foliate
+okular
+zathura
+onlyoffice-bin
+joplin-desktop
+tex-match-bin
+xournalpp
+write_stylus
+typora
+neovide-git
+visual-studio-code-bin
+neovim
+vim-plugins
+texstudio
+texlive-most
+texlive-lang
+
+#########Video/Audio#########
+vlc
+pavucontrol
+mpd
+mpc
+ncmpcpp
+playerctl
+ardour
+olive-git
+youtube-dl
+mps-youtube
 simplescreenrecorder
-arc-gtk-theme
-arc-icon-theme
 obs-studio
+#AUR# (olive depend.)
+opentimelineio-git
+
+
+########Terminal########
+alacritty
+
+
+########Browser#########
+firefox
+
+########Utility#########
+timeshift
+timeshift-autosnap
+flameshot
+htop
+bpytop
+neofetch
+archiso
+powertop
+arandr
+autorandr
+tar
+wget
+nodejs
+git
+net-tools
+zeal
+qreator
+zbar
+###AUR####
+paru
+zramd
+
+
+
+########FONTS#######
 dina-font
 tamsyn-font
 bdf-unifont
@@ -257,6 +296,8 @@ xf86-video-vesa
 xf86-input-void
 nvidia
 nvidia-utils
+cuda
+cudnn
 mesa
 libva
 libva-utils
@@ -281,12 +322,16 @@ iio-sensor-proxy
 
 
 ######     Applications
-neovide-git
-visual-studio-code-bin
-neovim
 squeekboard
 feedbackd
 detect-tablet-mode-git
+
+######## COMPILERS,ETC.
+gcc
+
+######### cloud #########
+insync
+
 
 
 #########################################
@@ -305,44 +350,18 @@ zsh-theme-powerlevel10k
 
 
 
-############   Utility
-timeshift
-timeshift-autosnap
-htop
-bpytop
-neofetch
-archiso
-gparted
-powertop
-arandr
-autorandr
-nnn
-ranger
-z
-tar
-wget
-nodejs
-git
-net-tools
-zeal
-qreator
-zbar
-###AUR####
-paru
-zramd
-pcmanfm
 
 
 
 
 
-##### Audio/Video ####
-######################
-###Driver####
+
+
+##### Audio/Video Driver####
 alsa-firmware
 alsa-tools
 alsa-ucm-conf
-alsa-plugins
+#alsa-plugins
 alsa-oss
 pipewire-media-session
 easyeffects
@@ -353,19 +372,9 @@ gst-libav
 #gst-plugins-good
 xdg-desktop-portal-gtk
 
-###Software###
-pavucontrol
-mpd
-mpc
-ncmpcpp
-playerctl
-ardour
-olive-git
-youtube-dl
-mps-youtube
 
-#AUR# (olive depend.)
-opentimelineio-git
+
+
 
 ##### want to add/use the Chaotic repo
 #chaotic-mirrorlist
@@ -399,18 +408,4 @@ xorg-xrdb
 
 
 
-######## COMPILERS,ETC.
-gcc
 
-
-
-######## Documents ########
-onlyoffice-bin
-joplin-desktop
-tex-match-bin
-xournalpp
-write_stylus
-typora
-
-######### cloud #########
-insync

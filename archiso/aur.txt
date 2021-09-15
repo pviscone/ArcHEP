@@ -3,7 +3,6 @@ paru
 zramd
 timeshift
 timeshift-autosnap
-spacefm
 neovide-git
 visual-studio-code-bin
 zeal
@@ -19,10 +18,6 @@ opentimelineio-git
 7-zip
 uasm
 typora
-chrome-gnome-shell
 squeekboard
 detect-tablet-mode-git
-pop-shell-shortcuts-git
-pop-launcher-git
-gnome-shell-extension-pop-shell-git
 feedbackd
