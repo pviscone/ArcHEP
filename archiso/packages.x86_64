@@ -168,7 +168,7 @@ kdenlive
 materia-kde
 kcm-wacomtablet
 kvantum-qt5
-i3-gaps
+#i3-gaps
 
 
 ##########File managers########
@@ -196,8 +196,14 @@ visual-studio-code-bin
 neovim
 vim-plugins
 texstudio
-texlive-most
-texlive-lang
+texlive-core
+texlive-science
+texlive-pstricks
+texlive-publishers
+texlive-bibtexextra
+texlive-formatsextra
+texlive-pictures
+texlive-latexextra
 
 #########Video/Audio#########
 vlc
@@ -249,40 +255,10 @@ zramd
 
 
 ########FONTS#######
-dina-font
-tamsyn-font
-bdf-unifont
-ttf-bitstream-vera
-ttf-croscore
 ttf-dejavu
-ttf-droid
-gnu-free-fonts
-ttf-ibm-plex
-ttf-liberation
-ttf-linux-libertine
 noto-fonts
-ttf-roboto
-tex-gyre-fonts
-ttf-ubuntu-font-family
-ttf-anonymous-pro
-ttf-cascadia-code
-ttf-fantasque-sans-mono
-ttf-fira-mono
 ttf-hack
-ttf-fira-code
-ttf-inconsolata
-ttf-jetbrains-mono
-ttf-monofur
-adobe-source-code-pro-fonts
-cantarell-fonts
-inter-font
-ttf-opensans
-gentium-plus-font
-ttf-junicode
-adobe-source-han-sans-otc-fonts
-adobe-source-han-serif-otc-fonts
-noto-fonts-cjk
-noto-fonts-emoji
+
 
 
 
@@ -297,7 +273,7 @@ xf86-input-void
 nvidia
 nvidia-utils
 cuda
-cudnn
+#cudnn
 mesa
 libva
 libva-utils
@@ -307,7 +283,7 @@ libva-vdpau-driver
 nvidia-settings
 nvtop
 amdvlk
-vulkan-devel
+#vulkan-devel
 
 
 #######################################
