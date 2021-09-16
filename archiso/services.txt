@@ -45,7 +45,7 @@ Created symlink /etc/systemd/system/sockets.target.wants/libvirtd.socket → /us
 Created symlink /etc/systemd/system/sockets.target.wants/libvirtd-ro.socket → /usr/lib/systemd/system/libvirtd-ro.socket.
 
 
-firewalld (non attivato)
+
 
 
 acpid
