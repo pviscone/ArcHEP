@@ -167,7 +167,6 @@ kdenlive
 materia-kde
 kcm-wacomtablet
 kvantum-qt5
-#i3-gaps
 
 #########KDE-Applications######
 ark
@@ -246,6 +245,8 @@ svgpart
 sweeper
 zeroconf-ioslave
 
+###AUR
+plasma-runners-translator
 
 
 ##########File managers########
@@ -261,6 +262,10 @@ pcmanfm
 foliate
 okular
 zathura
+zathura-pdf-mupdf
+zathura-ps
+zathura-djvu
+zathura-cb
 onlyoffice-bin
 joplin-desktop
 tex-match-bin
@@ -292,6 +297,7 @@ youtube-dl
 mps-youtube
 simplescreenrecorder
 obs-studio
+v4l2loopback-dkms
 
 
 
@@ -301,6 +307,7 @@ alacritty
 
 ########Browser#########
 firefox
+vivaldi
 
 ########Utility#########
 timeshift
@@ -321,19 +328,33 @@ net-tools
 zeal
 qreator
 zbar
+ksysguard
+iio-sensor-proxy
+onboard
+ripgrep
+virt-viewer
+libguestfs
+appmenu-gtk-module
+parsec-bin
+teamviewer
+etcher-bin
+
 ###AUR####
 paru
 zramd
-
-
+ocs-url
+oh-my-zsh-git
 
 ########FONTS#######
 ttf-dejavu
 noto-fonts
 ttf-hack
-
-
-
+nerd-fonts-ubuntu-mono
+nerd-fonts-droid-sans-mono
+ttf-symbola
+adobe-source-code-pro-fonts
+adobe-source-serif-fonts
+adobe-source-sans-fonts
 
 ########################################
 #               Video Driver
@@ -356,7 +377,7 @@ libva-vdpau-driver
 nvidia-settings
 nvtop
 amdvlk
-#vulkan-devel
+vulkan-devel
 
 
 #######################################
@@ -364,6 +385,7 @@ amdvlk
 ######################################
 xf86-input-wacom
 xf86-input-libinput
+xf86-input-synaptics
 bluez-tools
 blueman
 iio-sensor-proxy
@@ -398,13 +420,15 @@ gst-libav
 xdg-desktop-portal-gtk
 
 
+#######THEME#######
+nordic-kde-git
+kvantum-theme-nordic-git
 
 
 
 ##### want to add/use the Chaotic repo
 #chaotic-mirrorlist
 #chaotic-keyring
-
 
 
 # everything above comes from archiso releng folder
@@ -430,7 +454,81 @@ make
 xorg-xkill
 xorg-xrdb
 
+###### SCIENCE ######
+qgis
 
 
+################# PYTHON #################
+python-neovim-git
+python-pylint
+python-black
+pytest-pacman
+python-ipykernel
+jupyter
+python-numpy
+python-scipy
+python-matplotlib
+python-sphinx
 
-
+####pytest####
+python-pytest-pacman
+python-pytest-qt
+python-alt-pytest-asyncio
+python-pytest
+python-pytest-aiohttp
+python-pytest-asyncio
+python-pytest-bdd
+python-pytest-benchmark
+python-pytest-black
+python-pytest-celery
+python-pytest-checkdocs
+python-pytest-cov
+python-pytest-datadir
+python-pytest-datafixtures
+python-pytest-django
+python-pytest-enabler
+python-pytest-env
+python-pytest-expect
+python-pytest-fixture-config
+python-pytest-flake8
+python-pytest-forked
+python-pytest-freezegun
+python-pytest-helpers-namespace
+python-pytest-html
+python-pytest-httpbin
+python-pytest-httpx
+python-pytest-isort
+python-pytest-lazy-fixture
+python-pytest-localserver
+python-pytest-metadata
+python-pytest-mock
+python-pytest-mpi
+python-pytest-mypy
+python-pytest-ordering
+python-pytest-pylint
+python-pytest-raises
+python-pytest-randomly
+python-pytest-regressions
+python-pytest-relaxed
+python-pytest-repeat
+python-pytest-rerunfailures
+python-pytest-responsemock
+python-pytest-runner
+python-pytest-services
+python-pytest-shutil
+python-pytest-socket
+python-pytest-subtesthack
+python-pytest-subtests
+python-pytest-sugar
+python-pytest-tap
+python-pytest-testinfra
+python-pytest-timeout
+python-pytest-tornado
+python-pytest-trio
+python-pytest-twisted
+python-pytest-vcr
+python-pytest-verbose-parametrize
+python-pytest-virtualenv
+python-pytest-xdist
+python-pytest-xprocess
+python-pytest-xvfb

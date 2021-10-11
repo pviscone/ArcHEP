@@ -1,7 +1,7 @@
 #!/bin/bash
 filename='aur.txt'
-aur_repo=~/Desktop/aur/aur_repo
-aur=~/Desktop/aur/aur
+aur_repo=${PWD}/../aur/aur_repo
+aur=${PWD}/../aur/aur
 #UNCOMMENT TO ADD CUSTOM REPO TO PACMAN.CONF (run just one time)
 #cat << EOF >> pacman.conf
 #[AUR]
