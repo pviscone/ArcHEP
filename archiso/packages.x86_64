@@ -180,7 +180,6 @@ ffmpegthumbs
 filelight
 gwenview
 grantlee-editor
-itinerary
 k3b
 kapptemplate
 kate
@@ -255,7 +254,6 @@ nnn
 ranger
 z
 ##AUR##
-7-zip
 uasm
 pcmanfm
 
@@ -269,7 +267,6 @@ tex-match-bin
 xournalpp
 write_stylus
 typora
-neovide-git
 visual-studio-code-bin
 neovim
 vim-plugins
@@ -291,13 +288,11 @@ mpc
 ncmpcpp
 playerctl
 ardour
-olive-git
 youtube-dl
 mps-youtube
 simplescreenrecorder
 obs-studio
-#AUR# (olive depend.)
-opentimelineio-git
+
 
 
 ########Terminal########
@@ -376,7 +371,6 @@ iio-sensor-proxy
 
 
 ######     Applications
-squeekboard
 feedbackd
 detect-tablet-mode-git
 
@@ -385,29 +379,6 @@ gcc
 
 ######### cloud #########
 insync
-
-
-
-#########################################
-#             ZSH PLUGIN
-#########################################
-#AUR
-zsh-fast-syntax-highlighting
-#PACMAN
-zsh-autosuggestions
-zsh-completions
-zsh-doc
-zsh-history-substring-search
-#zsh-syntax-highlighting
-zsh-theme-powerlevel10k
-
-
-
-
-
-
-
-
 
 
 

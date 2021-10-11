@@ -3,21 +3,14 @@ paru
 zramd
 timeshift
 timeshift-autosnap
-neovide-git
 visual-studio-code-bin
 zeal
-zsh-fast-syntax-highlighting
 tex-match-bin
 joplin-desktop
 onlyoffice-bin
 insync
 write_stylus
-olive-git
-#olive depend.
-opentimelineio-git
-7-zip
 uasm
 typora
-squeekboard
 detect-tablet-mode-git
 feedbackd
