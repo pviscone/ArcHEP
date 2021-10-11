@@ -25,4 +25,3 @@ plasma-runners-translator
 parsec-bin
 teamviewer
 etcher-bin
-ttf-symbola
