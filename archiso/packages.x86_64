@@ -33,7 +33,7 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
+#grml-zsh-config
 hdparm
 intel-ucode
 ipw2100-fw
@@ -471,7 +471,7 @@ python-matplotlib
 python-sphinx
 
 ####pytest####
-python-pytest-pacman
+#python-pytest-pacman
 python-pytest-qt
 python-alt-pytest-asyncio
 python-pytest
