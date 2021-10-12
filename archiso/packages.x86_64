@@ -165,7 +165,7 @@ plasma
 papirus-icon-theme
 kdenlive
 materia-kde
-kcm-wacomtablet
+#kcm-wacomtablet
 kvantum-qt5
 
 #########KDE-Applications######
@@ -383,7 +383,7 @@ vulkan-devel
 #######################################
 #            Other drivers
 ######################################
-xf86-input-wacom
+#xf86-input-wacom
 xf86-input-libinput
 xf86-input-synaptics
 bluez-tools
