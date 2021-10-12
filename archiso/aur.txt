@@ -10,10 +10,8 @@ joplin-desktop
 onlyoffice-bin
 insync
 write_stylus
-uasm
 typora
 detect-tablet-mode-git
-feedbackd
 nordic-kde-git
 kvantum-theme-nordic-git
 ocs-url

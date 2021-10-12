@@ -250,13 +250,10 @@ plasma-runners-translator
 
 
 ##########File managers########
-thunar
 nnn
 ranger
 z
-##AUR##
-uasm
-pcmanfm
+
 
 #########Documents/Editor#########
 foliate
@@ -393,7 +390,6 @@ iio-sensor-proxy
 
 
 ######     Applications
-feedbackd
 detect-tablet-mode-git
 
 ######## COMPILERS,ETC.

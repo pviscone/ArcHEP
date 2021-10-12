@@ -1,3 +1,0 @@
-opentimelineio-git #olive
-uasm #7-zip
-feedbackd (squeekboard)
