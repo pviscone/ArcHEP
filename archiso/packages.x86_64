@@ -549,7 +549,6 @@ neofetch
 open-vm-tools
 lz4
 mps-youtube
-dd
 figlet
 scrapy
 docker
@@ -565,7 +564,6 @@ vlc
 gimp
 inkscape
 pdfmixtool
-spotify
 stellarium
 calibre
 discord
@@ -645,8 +643,7 @@ python-dask
 python-distributed
 python-joblib
 python-nltk
-ntlk-data
-python-boost-histogram
+nltk-data
 pybind11
 python-pprofile
 python-memory-profiler
@@ -733,7 +730,7 @@ root
 root-cuda
 cern-vdt
 hepmc
-hepcm-docs
+hepmc-docs
 pythia8
 
 ############# AUR ####################
@@ -800,4 +797,5 @@ hadoop
 fv
 python-qutip
 topcat
+python-llvmlite
 #cvmfs-git

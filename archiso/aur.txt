@@ -98,3 +98,6 @@ fv
 python-qutip
 topcat
 #cvmfs-git
+python-llvmlite
+python-numba
+python-quaternionic
