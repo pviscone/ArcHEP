@@ -636,8 +636,9 @@ python-pyopencl
 python-invoke
 python-websockets
 python-pythia8
+python-tensorflow-serving-api
 python-sympy
-python-h5py
+#python-h5py
 python-h5py-openmpi
 python-dask
 python-distributed
@@ -713,7 +714,7 @@ sagetex
 sage-data-elliptic_curves
 octave
 cauchy
-hdf5
+#hdf5
 hdf5-openmpi
 r
 ansible
