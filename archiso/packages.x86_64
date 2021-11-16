@@ -553,7 +553,12 @@ dd
 figlet
 scrapy
 docker
-
+elasticsearch
+lnav
+bleachbit
+zlib
+ccache
+gdb
 
 ######### PROGRAMMI ###########
 vlc
@@ -566,6 +571,8 @@ calibre
 discord
 telegram-desktop
 mkvtoolnix-gui
+mpv
+blender
 
 ######### PYTHON ###########
 python-gnuplot
@@ -630,13 +637,30 @@ python-mpmath
 python-pyopencl
 python-invoke
 python-websockets
-
-
-
+python-pythia8
+python-sympy
+python-h5py
+python-h5py-openmpi
+python-dask
+python-distributed
+python-joblib
+python-nltk
+ntlk-data
+python-boost-histogram
+pybind11
+python-pprofile
+python-memory-profiler
 
 
 ######### ALTRI LINGUAGGI ###########
 aarch64-linux-gnu-gcc
+tbb
+asio
+distcc
+freehdl
+gc
+cppcheck
+npm
 arduino-avr-core
 arduino
 arduino-cli
@@ -665,6 +689,9 @@ gsl
 eigen
 julia
 rust
+rust-racer
+rust-analyzer
+go
 nodejs
 kotlin
 jre-openjdk
@@ -680,6 +707,23 @@ tensorflow-cuda
 tensorboard
 php
 glu
+sagemath
+sagemath-doc
+sagetex
+sage-data-elliptic_curves
+octave
+cauchy
+hdf5
+hdf5-openmpi
+r
+ansible
+scala
+geogebra
+gap
+maxima
+mysql-workbench
+wxmaxima
+celestia
 
 ######### CERN #######
 root
@@ -687,7 +731,7 @@ root-cuda
 cern-vdt
 hepmc
 hepcm-docs
-
+pythia8
 
 ############# AUR ####################
 geant4
@@ -733,3 +777,25 @@ xgboost-git
 python-xgboost-git
 xeus
 xeus-cling
+sage-notebook
+python-scikit-image
+jupyter_contrib_nbextensions
+heasoft
+xsv
+rstudio-desktop-bin
+scilab
+python-sciscipy
+jupyter-scilab_kernel_git
+cadabra2
+cernbox
+cernvm-webapi
+lhc-dashboard-desktop
+python-fastai
+lalsuite-git
+mendeleydesktop
+hadoop
+hdtv
+fv
+python-qutip
+topcat
+cvmfs-git
