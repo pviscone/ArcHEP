@@ -1,5 +1,2 @@
 timeshift
 cambiare la dipendenza da geant di geant4-neutronxsdata in opzionale
-##qucs
-qt4
-adms
