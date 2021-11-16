@@ -36,7 +36,7 @@ etcher-bin
 #
 geant4
 geant4-abladata
-geant4-debug
+#geant4-debug
 geant4-ensdfstatedata
 geant4-incldata
 geant4-ledata
@@ -80,7 +80,7 @@ xeus-cling
 sage-notebook
 python-scikit-image
 jupyter_contrib_nbextensions
-heasoft
+#heasoft
 xsv
 rstudio-desktop-bin
 scilab

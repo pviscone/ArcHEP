@@ -655,9 +655,12 @@ python-memory-profiler
 ######### ALTRI LINGUAGGI ###########
 aarch64-linux-gnu-gcc
 tbb
+cython
 asio
 distcc
+ocaml
 freehdl
+typescript
 gc
 cppcheck
 npm
@@ -736,7 +739,7 @@ pythia8
 ############# AUR ####################
 geant4
 geant4-abladata
-geant4-debug
+#geant4-debug
 geant4-ensdfstatedata
 geant4-incldata
 geant4-ledata
@@ -780,7 +783,7 @@ xeus-cling
 sage-notebook
 python-scikit-image
 jupyter_contrib_nbextensions
-heasoft
+#heasoft
 xsv
 rstudio-desktop-bin
 scilab
