@@ -556,6 +556,7 @@ elasticsearch
 lnav
 bleachbit
 zlib
+kubectl
 ccache
 gdb
 
@@ -648,10 +649,15 @@ nltk-data
 pybind11
 python-pprofile
 python-memory-profiler
-
+python-distorm
 
 ######### ALTRI LINGUAGGI ###########
 aarch64-linux-gnu-gcc
+gdb-dashboard
+distorm
+acme
+fasm
+nasm
 tbb
 cython
 asio
