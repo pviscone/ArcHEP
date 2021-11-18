@@ -1,11 +1,1 @@
-[Unit]
-Description=Refresh Pacman mirrorlist weekly with Reflector.
-
-[Timer]
-OnCalendar=weekly
-Persistent=true
-AccuracySec=1us
-RandomizedDelaySec=12h
-
-[Install]
-WantedBy=timers.target
+/usr/lib/systemd/system/reflector.timer

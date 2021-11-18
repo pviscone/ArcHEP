@@ -1,43 +1,43 @@
-NetworkManager
+NetworkManager FATTO
 
 Created symlink /etc/systemd/system/multi-user.target.wants/NetworkManager.service → /usr/lib/systemd/system/NetworkManager.service.
 Created symlink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service → /usr/lib/systemd/system/NetworkManager-dispatcher.service.
 Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service → /usr/lib/systemd/system/NetworkManager-wait-online.service.
 
 
-bluetooth
+bluetooth FATTO
 Created symlink /etc/systemd/system/dbus-org.bluez.service → /usr/lib/systemd/system/bluetooth.service.
 Created symlink /etc/systemd/system/bluetooth.target.wants/bluetooth.service → /usr/lib/systemd/system/bluetooth.service.
 
 
-cups.service
+cups.service FATTO
 Created symlink /etc/systemd/system/printer.target.wants/cups.service → /usr/lib/systemd/system/cups.service.
 Created symlink /etc/systemd/system/sockets.target.wants/cups.socket → /usr/lib/systemd/system/cups.socket.
 Created symlink /etc/systemd/system/multi-user.target.wants/cups.path → /usr/lib/systemd/system/cups.path.
 
-sshd
+sshd FATTO
 Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
 
 
-avahi-daemon
+avahi-daemon FATTO
 Created symlink /etc/systemd/system/dbus-org.freedesktop.Avahi.service → /usr/lib/systemd/system/avahi-daemon.service.
 Created symlink /etc/systemd/system/multi-user.target.wants/avahi-daemon.service → /usr/lib/systemd/system/avahi-daemon.service.
 Created symlink /etc/systemd/system/sockets.target.wants/avahi-daemon.socket → /usr/lib/systemd/system/avahi-daemon.socket.
 
-tlp
+tlp FATTO
 Created symlink /etc/systemd/system/multi-user.target.wants/tlp.service → /usr/lib/systemd/system/tlp.service
 
 
-reflector.timer
+reflector.timer FATTO
 Created symlink /etc/systemd/system/timers.target.wants/reflector.timer → /usr/lib/systemd/system/reflector.timer.
 
 
-fstrim.timer
+fstrim.timer FATTO
 Created symlink /etc/systemd/system/timers.target.wants/fstrim.timer → /usr/lib/systemd/system/fstrim.timer.
 
 
 
-libvirtd
+libvirtd FATTO
 Created symlink /etc/systemd/system/multi-user.target.wants/libvirtd.service → /usr/lib/systemd/system/libvirtd.service.
 Created symlink /etc/systemd/system/sockets.target.wants/virtlockd.socket → /usr/lib/systemd/system/virtlockd.socket.
 Created symlink /etc/systemd/system/sockets.target.wants/virtlogd.socket → /usr/lib/systemd/system/virtlogd.socket.
@@ -48,18 +48,18 @@ Created symlink /etc/systemd/system/sockets.target.wants/libvirtd-ro.socket → 
 
 
 
-acpid
+acpid FATTO
 Created symlink /etc/systemd/system/multi-user.target.wants/acpid.service → /usr/lib/systemd/system/acpid.service.
 
 
-zramd.service
+zramd.service FATTO
 Created symlink /etc/systemd/system/multi-user.target.wants/zramd.service → /usr/lib/systemd/system/zramd.service.
 
-firewalld
+firewalld FATTO
 Created symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service → /usr/lib/systemd/system/firewalld.service.
 Created symlink /etc/systemd/system/multi-user.target.wants/firewalld.service → /usr/lib/systemd/system/firewalld.service.
-
-sddm
+ 
+sddm FATTO
 Created symlink /etc/systemd/system/display-manager.service → /usr/lib/systemd/system/sddm.service.
 
 
