@@ -549,6 +549,8 @@ gnome-keyring
 neofetch
 open-vm-tools
 lz4
+x11vnc
+tigervnc
 mps-youtube
 figlet
 scrapy
