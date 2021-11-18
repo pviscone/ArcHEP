@@ -545,6 +545,7 @@ python-pytest-xvfb
 
 ######### UTILITY ###########
 ffmpeg
+gnome-keyring
 neofetch
 open-vm-tools
 lz4
@@ -650,12 +651,15 @@ pybind11
 python-pprofile
 python-memory-profiler
 python-distorm
+tk
 
 ######### ALTRI LINGUAGGI ###########
 aarch64-linux-gnu-gcc
 gdb-dashboard
 distorm
 acme
+boost
+cppunit
 fasm
 nasm
 tbb
