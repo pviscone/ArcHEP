@@ -166,7 +166,7 @@ papirus-icon-theme
 kdenlive
 materia-kde
 #kcm-wacomtablet
-kvantum-qt5
+kvantum
 
 #########KDE-Applications######
 ark
@@ -270,6 +270,7 @@ xournalpp
 write_stylus
 typora
 visual-studio-code-bin
+android-studio
 neovim
 vim-plugins
 texstudio
@@ -297,8 +298,9 @@ mps-youtube
 simplescreenrecorder
 obs-studio
 v4l2loopback-dkms
-
-
+smplayer
+smplayer-skins
+smplayer-themes
 
 ########Terminal########
 alacritty
@@ -337,6 +339,7 @@ appmenu-gtk-module
 parsec-bin
 teamviewer
 etcher-bin
+pdfgrep
 
 ###AUR####
 paru
@@ -354,6 +357,7 @@ nerd-fonts-droid-sans-mono
 adobe-source-code-pro-fonts
 adobe-source-serif-fonts
 adobe-source-sans-fonts
+adobe-source-han-sans-otc-fonts
 
 ########################################
 #               Video Driver
@@ -396,9 +400,6 @@ detect-tablet-mode-git
 
 ######## COMPILERS,ETC.
 gcc
-
-######### cloud #########
-insync
 
 
 
@@ -563,6 +564,9 @@ kubectl
 ccache
 gdb
 
+####Aur
+downgrade
+
 ######### PROGRAMMI ###########
 vlc
 gimp
@@ -579,8 +583,7 @@ blender
 ######### PYTHON ###########
 python-gnuplot
 python-pyghdl
-python-tensorflow
-python-tensorflow-cuda
+python-tensorflow-cuda-opt
 python-tensorflow-estimator
 python-keras
 python-keras-applications
@@ -596,7 +599,6 @@ python-virtualenv
 python-pipenv
 python-pip
 pypy3
-spyder
 python-spyder-kernels
 python-matplotlib
 python-matplotlib-inline
@@ -716,9 +718,7 @@ stack
 lua
 sqlite
 ruby
-tensorflow
-tensorflow-cuda
-tensorboard
+tensorflow-cuda-opt
 php
 glu
 sagemath
@@ -805,7 +805,6 @@ cernbox
 #lhc-dashboard-desktop
 #python-fastai
 #lalsuite-git
-mendeleydesktop
 hadoop
 #hdtv
 fv

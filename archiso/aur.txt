@@ -8,7 +8,6 @@ zeal
 tex-match-bin
 joplin-desktop
 onlyoffice-bin
-insync
 write_stylus
 typora
 detect-tablet-mode-git
@@ -91,7 +90,6 @@ cernbox
 #lhc-dashboard-desktop
 #python-fastai
 #lalsuite-git
-mendeleydesktop
 hadoop
 #hdtv
 fv
@@ -101,3 +99,5 @@ topcat
 python-llvmlite
 python-numba
 python-quaternionic
+downgrade
+android-studio
