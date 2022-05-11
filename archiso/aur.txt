@@ -10,7 +10,6 @@ joplin-desktop
 onlyoffice-bin
 write_stylus
 typora
-detect-tablet-mode-git
 nordic-kde-git
 kvantum-theme-nordic-git
 ocs-url
@@ -61,7 +60,6 @@ geant4-saiddata
 #skypeforlinux-stable-bin
 #telegram-desktop-bin
 #onedrive-abraunegg
-eigen-git
 conan
 apache-spark
 #python-astropy
@@ -108,3 +106,5 @@ python-numba
 #python-quaternionic
 downgrade
 android-studio
+espanso
+yoga-usage-mode-dkms-git

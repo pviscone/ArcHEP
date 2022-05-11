@@ -10,7 +10,8 @@ broadcom-wl
 btrfs-progs
 clonezilla
 cloud-init
-crda
+#crda
+wireless-regdb
 cryptsetup
 darkhttpd
 ddrescue
@@ -145,8 +146,10 @@ acpi
 acpi_call
 tlp
 virt-manager
-qemu
-qemu-arch-extra
+#qemu
+qemu-desktop
+#qemu-arch-extra
+qemu-emulators-full
 edk2-ovmf
 bridge-utils
 vde2
@@ -409,7 +412,8 @@ alsa-tools
 alsa-ucm-conf
 #alsa-plugins
 alsa-oss
-pipewire-media-session
+#pipewire-media-session
+wireplumber
 easyeffects
 ffmpeg
 gstreamer
@@ -463,7 +467,7 @@ python-pylint
 python-black
 pytest-pacman
 python-ipykernel
-jupyter
+jupyter-notebook
 python-numpy
 python-scipy
 python-matplotlib
@@ -574,11 +578,8 @@ inkscape
 pdfmixtool
 stellarium
 calibre
-discord
-telegram-desktop
 mkvtoolnix-gui
 mpv
-blender
 
 ######### PYTHON ###########
 python-gnuplot
@@ -747,6 +748,15 @@ hepmc
 hepmc-docs
 pythia8
 
+
+###ALTRI
+xf86-input-wacom
+kcm-wacomtablet
+libwacom
+speedtest-cli
+powerline-fonts
+xclip
+
 ############# AUR ####################
 ######## quelli commentati hanno bisogno di un certo numero di dipendenze dall'aur. Installati dopo l'install. con paru
 geant4
@@ -811,7 +821,6 @@ fv
 topcat
 python-llvmlite
 #cvmfs-git
-eigen-git
 conan
 iio-sensor-proxy-git
 kded-rotation-git
@@ -819,3 +828,5 @@ detect-tablet-mode-git
 digimend-kernel-drivers-dkms-git
 spotify
 spotify-adblock-git
+espanso
+yoga-usage-mode-dkms-git
