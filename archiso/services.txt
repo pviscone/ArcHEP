@@ -62,6 +62,7 @@ Created symlink /etc/systemd/system/multi-user.target.wants/firewalld.service â†
 sddm FATTO
 Created symlink /etc/systemd/system/display-manager.service â†’ /usr/lib/systemd/system/sddm.service.
 
-
+wpa_supplicant attivatp
+iwd e systemd-networkd disattivati
 
 

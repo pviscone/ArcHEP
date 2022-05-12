@@ -99,10 +99,10 @@ hadoop
 #hdtv
 fv
 #python-qutip
-topcat
+#topcat
 #cvmfs-git
-python-llvmlite
-python-numba
+#python-llvmlite
+#python-numba
 #python-quaternionic
 downgrade
 android-studio

@@ -1,7 +1,2 @@
-timeshift
-cambiare la dipendenza da geant di geant4-neutronxsdata in opzionale
-#numba
-python-llvmlite
-#quaternionic
-python-numba
-
+cargo-make
+rust-script

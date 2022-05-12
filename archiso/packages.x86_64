@@ -609,8 +609,8 @@ python-pandas-datareader
 python-seaborn
 python-statsmodels
 python-uncertainties
-python-numba
-python-quaternionic
+#python-numba
+#python-quaternionic
 python-simplebayes
 python-scikit-learn
 python-scipy
@@ -818,8 +818,8 @@ hadoop
 #hdtv
 fv
 #python-qutip
-topcat
-python-llvmlite
+#topcat
+#python-llvmlite
 #cvmfs-git
 conan
 iio-sensor-proxy-git
