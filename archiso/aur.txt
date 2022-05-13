@@ -6,7 +6,7 @@ timeshift-autosnap
 visual-studio-code-bin
 zeal
 tex-match-bin
-joplin-desktop
+#joplin-desktop
 onlyoffice-bin
 write_stylus
 typora
@@ -75,7 +75,7 @@ lightgbm
 jaxodraw
 jaxodraw-latex
 jupyterlab-plotly
-python-plotly
+#python-plotly
 python-jupytext
 xgboost-git
 python-xgboost-git
@@ -107,4 +107,7 @@ fv
 downgrade
 android-studio
 espanso
-yoga-usage-mode-dkms-git
+yoga-usage-mode
+wxmaxima
+stellarium
+elasticsearch

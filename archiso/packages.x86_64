@@ -209,7 +209,6 @@ kgpg
 khelpcenter
 kio-extras
 kio-gdrive
-kipi-plugins
 kleopatra
 kmag
 kmail
@@ -227,7 +226,7 @@ krdc
 krfb
 krita
 kdevelop
-kross-interpreters
+kross
 kruler
 ksystemlog
 ktimer
@@ -584,7 +583,7 @@ mpv
 ######### PYTHON ###########
 python-gnuplot
 python-pyghdl
-python-tensorflow-cuda-opt
+python-tensorflow-opt-cuda
 python-tensorflow-estimator
 python-keras
 python-keras-applications
@@ -593,7 +592,7 @@ python-numpy
 python-numpydoc
 python-uproot
 python-uproot-docs
-python-uproot-methods
+#python-uproot-methods
 python-pytorch
 python-pytorch-cuda
 python-virtualenv
@@ -617,7 +616,6 @@ python-scipy
 python-requests
 python-flask
 python-beautifulsoup4
-python-selenium
 python-pygame
 python-pillow
 python-pillowfight
@@ -719,7 +717,7 @@ stack
 lua
 sqlite
 ruby
-tensorflow-cuda-opt
+tensorflow-opt-cuda
 php
 glu
 sagemath
@@ -738,7 +736,7 @@ gap
 maxima
 mysql-workbench
 wxmaxima
-celestia
+#celestia
 
 ######### CERN #######
 root
@@ -794,7 +792,7 @@ lightgbm
 jaxodraw
 jaxodraw-latex
 jupyterlab-plotly
-python-plotly
+#python-plotly
 python-jupytext
 xgboost-git
 python-xgboost-git
