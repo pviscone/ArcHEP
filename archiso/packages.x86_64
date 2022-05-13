@@ -593,7 +593,6 @@ python-numpydoc
 python-uproot
 python-uproot-docs
 #python-uproot-methods
-python-pytorch
 python-pytorch-cuda
 python-virtualenv
 python-pipenv
@@ -683,7 +682,6 @@ arduino-docs
 cuda
 cuda-tools
 cudnn
-blas
 cblas
 openblas
 lapack
@@ -739,7 +737,6 @@ wxmaxima
 #celestia
 
 ######### CERN #######
-root
 root-cuda
 cern-vdt
 hepmc
