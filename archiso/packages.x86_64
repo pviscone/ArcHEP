@@ -575,7 +575,7 @@ vlc
 gimp
 inkscape
 pdfmixtool
-stellarium
+#stellarium
 calibre
 mkvtoolnix-gui
 mpv
@@ -828,3 +828,7 @@ spotify
 spotify-adblock-git
 espanso
 yoga-usage-mode-dkms-git
+soci
+python-patch-ng
+python-node-semver
+python-pluginbase

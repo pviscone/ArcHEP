@@ -109,5 +109,9 @@ android-studio
 espanso
 yoga-usage-mode
 wxmaxima
-stellarium
+#stellarium
 elasticsearch
+soci
+python-patch-ng
+python-node-semver
+python-pluginbase
