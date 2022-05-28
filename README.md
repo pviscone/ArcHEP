@@ -5,7 +5,7 @@ The ISO includes the calamares graphic installer with the btrfs configuration (a
 >
 > ArcHEP ( KDE, X11, pipewire, btrfs) contains a lot of packages dedicated to machine learning, data analysis in high energy physics (root, GEANT4, etc.), coding and notetaking on 2-in-1 devices
 >
-> There are installed also a lot of drivers to run without problem on every device
+> There are installed also a lot of drivers to run without problems on every device
 
 **Need Archiso to run**
 
