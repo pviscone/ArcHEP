@@ -122,3 +122,4 @@ gitkraken
 ttf-times-new-roman
 input-remapper-beta-git
 tllocalmgr-git
+mailspring
