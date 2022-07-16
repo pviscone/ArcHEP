@@ -85,7 +85,7 @@ python-xgboost-git
 #python-scikit-image
 #jupyter_contrib_nbextensions
 xsv
-rstudio-desktop
+rstudio-desktop-bin
 #scilab
 #python-sciscipy
 #jupyter-scilab_kernel_git
@@ -97,7 +97,7 @@ rstudio-desktop
 #lalsuite-git
 hadoop
 #hdtv
-fv
+#fv
 #python-qutip
 #topcat
 #cvmfs-git
@@ -106,7 +106,7 @@ fv
 #python-quaternionic
 downgrade
 android-studio
-espanso
+#espanso
 yoga-usage-mode
 wxmaxima
 #stellarium
@@ -115,3 +115,10 @@ soci
 python-patch-ng
 python-node-semver
 python-pluginbase
+ptpython
+logiops
+cppitertools
+gitkraken
+ttf-times-new-roman
+input-remapper-beta-git
+tllocalmgr-git
