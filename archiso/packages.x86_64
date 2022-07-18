@@ -286,6 +286,7 @@ texlive-pictures
 texlive-latexextra
 texlive-humanities
 texlive-fontsextra
+biber
 
 #########Video/Audio#########
 vlc
