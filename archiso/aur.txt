@@ -7,7 +7,7 @@ visual-studio-code-bin
 zeal
 tex-match-bin
 #joplin-desktop
-onlyoffice-bin
+#onlyoffice-bin
 write_stylus
 typora
 nordic-kde-git
@@ -16,7 +16,6 @@ ocs-url
 oh-my-zsh-git
 nerd-fonts-ubuntu-mono
 nerd-fonts-droid-sans-mono
-python-neovim-git
 plasma-runners-translator
 parsec-bin
 teamviewer
@@ -65,7 +64,7 @@ apache-spark
 #python-astropy
 thrust
 #python-pymc3
-python-theano
+#python-theano
 #python-moviepy
 #python-conda
 #python-gammapy
@@ -76,9 +75,9 @@ jaxodraw
 jaxodraw-latex
 jupyterlab-plotly
 #python-plotly
-python-jupytext
-xgboost-git
-python-xgboost-git
+#python-jupytext
+#xgboost-git
+#python-xgboost-git
 #xeus
 #xeus-cling
 #sage-notebook
@@ -125,3 +124,6 @@ tllocalmgr-git
 mailspring
 enpass-bin
 simplenote-electron-bin
+alacritty-themes
+kde-rounded-corners
+kwin-bismuth-bin

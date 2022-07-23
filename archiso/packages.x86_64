@@ -211,8 +211,8 @@ kio-extras
 kio-gdrive
 kleopatra
 kmag
-kmail
-kmail-account-wizard
+#kmail
+#kmail-account-wizard
 kmix
 kmousetool
 kmplot
@@ -265,7 +265,8 @@ zathura-pdf-mupdf
 zathura-ps
 zathura-djvu
 zathura-cb
-onlyoffice-bin
+libreoffice-fresh
+libreoffice-fresh-it
 #joplin-desktop
 tex-match-bin
 xournalpp
@@ -463,7 +464,6 @@ qgis
 
 
 ################# PYTHON #################
-python-neovim-git
 python-pylint
 python-black
 pytest-pacman
@@ -794,7 +794,7 @@ apache-spark
 #python-astropy
 thrust
 #python-pymc3
-python-theano
+#python-theano
 #python-moviepy
 #python-conda
 #python-gammapy
@@ -805,9 +805,9 @@ jaxodraw
 jaxodraw-latex
 jupyterlab-plotly
 #python-plotly
-python-jupytext
-xgboost-git
-python-xgboost-git
+#python-jupytext
+#xgboost-git
+#python-xgboost-git
 #xeus
 #xeus-cling
 #sage-notebook
@@ -852,3 +852,7 @@ tllocalmgr-git
 mailspring
 enpass-bin
 simplenote-electron-bin
+alacritty-themes
+kde-rounded-corners
+kwin-bismuth-bin
+
