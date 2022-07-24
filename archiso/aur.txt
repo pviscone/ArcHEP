@@ -127,3 +127,4 @@ simplenote-electron-bin
 alacritty-themes
 kde-rounded-corners
 kwin-bismuth-bin
+nerd-fonts-fira-code
