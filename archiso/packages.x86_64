@@ -769,6 +769,11 @@ yarn
 pdf2svg
 rofi
 rxvt-unicode
+bat
+bat-extras
+ueberzug
+prettier
+git-delta
 
 ############# AUR ####################
 ######## quelli commentati hanno bisogno di un certo numero di dipendenze dall'aur. Installati dopo l'install. con paru
@@ -858,4 +863,6 @@ simplenote-electron-bin
 alacritty-themes
 kde-rounded-corners
 kwin-bismuth-bin
-
+zotero-bin
+imwheel
+youtube-music-bin
