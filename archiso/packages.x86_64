@@ -573,6 +573,7 @@ ccache
 gdb
 fzf
 redshift
+github-cli
 
 ####Aur
 downgrade
