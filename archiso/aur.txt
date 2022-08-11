@@ -131,3 +131,4 @@ nerd-fonts-fira-code
 zotero-bin
 imwheel
 youtube-music-bin
+github-desktop-bin
