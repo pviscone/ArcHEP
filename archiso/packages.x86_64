@@ -389,7 +389,7 @@ nvidia-settings
 nvtop
 amdvlk
 vulkan-devel
-
+nvidia-prime
 
 #######################################
 #            Other drivers
