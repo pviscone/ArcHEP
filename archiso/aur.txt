@@ -7,7 +7,7 @@ visual-studio-code-bin
 zeal
 tex-match-bin
 #joplin-desktop
-#onlyoffice-bin
+onlyoffice-bin
 write_stylus
 typora
 nordic-kde-git
