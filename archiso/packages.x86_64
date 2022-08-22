@@ -365,6 +365,9 @@ adobe-source-han-sans-otc-fonts
 ttf-fira-code
 awesome-terminal-fonts
 nerd-fonts-fira-code
+noto-fonts-extra
+noto-fonts-cjk
+noto-fonts-emoji
 
 ########################################
 #               Video Driver
