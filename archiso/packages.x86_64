@@ -505,7 +505,6 @@ python-pytest-forked
 python-pytest-freezegun
 python-pytest-helpers-namespace
 python-pytest-html
-python-pytest-httpbin
 python-pytest-httpx
 python-pytest-isort
 python-pytest-lazy-fixture
