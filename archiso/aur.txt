@@ -132,3 +132,4 @@ zotero-bin
 imwheel
 youtube-music-bin
 github-desktop-bin
+julia-bin
