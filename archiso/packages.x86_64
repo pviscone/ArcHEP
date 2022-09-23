@@ -713,7 +713,7 @@ ghdl-gcc
 verilator
 gsl
 eigen
-julia
+julia-bin
 rust
 rust-racer
 rust-analyzer
