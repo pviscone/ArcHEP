@@ -197,7 +197,7 @@ kdeconnect
 kdegraphics-thumbnailers
 kdenetwork-filesharing
 kdepim-addons
-kdesdk-kioslaves
+kdesdk-kio
 kdesdk-thumbnailers
 kdf
 kdialog
@@ -233,7 +233,6 @@ ktimer
 ktorrent
 kwalletmanager
 kwave
-kwrite
 markdownpart
 okular
 partitionmanager
@@ -245,7 +244,7 @@ skanlite
 spectacle
 svgpart
 sweeper
-zeroconf-ioslave
+kio-confzero
 
 ###AUR
 plasma-runners-translator
@@ -270,7 +269,6 @@ onlyoffice-bin
 tex-match-bin
 xournalpp
 write_stylus
-typora
 visual-studio-code-bin
 android-studio
 neovim
@@ -873,3 +871,8 @@ github-desktop-bin
 iverilog
 gtkwave
 vivaldi-ffmpeg-codecs
+kalendar
+helvum
+morgen-bin
+marktext-bin
+intel-media-driver

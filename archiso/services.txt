@@ -1,3 +1,8 @@
+EXAMPLE
+ln -s /usr/lib/systemd/system/gpm.service archlive/airootfs/etc/systemd/system/multi-user.target.wants/
+
+
+
 NetworkManager FATTO
 
 Created symlink /etc/systemd/system/multi-user.target.wants/NetworkManager.service → /usr/lib/systemd/system/NetworkManager.service.
@@ -65,4 +70,9 @@ Created symlink /etc/systemd/system/display-manager.service → /usr/lib/systemd
 wpa_supplicant attivatp
 iwd e systemd-networkd disattivati
 
+
+systemd-oomd
+
+Created symlink /etc/systemd/system/dbus-org.freedesktop.oom1.service → /usr/lib/systemd/system/systemd-oomd.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/systemd-oomd.service → /usr/lib/systemd/system/systemd-oomd.service.
 
