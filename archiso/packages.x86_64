@@ -354,7 +354,7 @@ ttf-dejavu
 noto-fonts
 ttf-hack
 ttf-nerd-fonts-symbols-2048-em
-nerd-fonts-ubuntu-mono
+ttf-ubuntumono-nerd
 nerd-fonts-droid-sans-mono
 adobe-source-code-pro-fonts
 adobe-source-serif-fonts
@@ -859,7 +859,6 @@ ttf-times-new-roman
 input-remapper-beta-git
 tllocalmgr-git
 mailspring
-enpass-bin
 simplenote-electron-bin
 alacritty-themes
 kde-rounded-corners
@@ -876,3 +875,5 @@ helvum
 morgen-bin
 marktext-bin
 intel-media-driver
+bitwarden
+sshpass

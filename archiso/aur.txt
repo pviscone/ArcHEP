@@ -121,7 +121,7 @@ ttf-times-new-roman
 input-remapper-beta-git
 tllocalmgr-git
 mailspring
-enpass-bin
+#enpass-bin
 simplenote-electron-bin
 alacritty-themes
 kde-rounded-corners
