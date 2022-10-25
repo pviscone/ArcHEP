@@ -309,6 +309,7 @@ alacritty
 
 ########Browser#########
 firefox
+chromium
 vivaldi
 
 ########Utility#########
@@ -483,62 +484,13 @@ python-sphinx
 python-pytest-qt
 python-alt-pytest-asyncio
 python-pytest
-python-pytest-aiohttp
-python-pytest-asyncio
-python-pytest-bdd
 python-pytest-benchmark
 python-pytest-black
-python-pytest-celery
-python-pytest-checkdocs
-python-pytest-cov
-python-pytest-datadir
-python-pytest-datafixtures
-python-pytest-django
-python-pytest-enabler
 python-pytest-env
-python-pytest-expect
-python-pytest-fixture-config
-python-pytest-flake8
-python-pytest-forked
-python-pytest-freezegun
-python-pytest-helpers-namespace
-python-pytest-html
-python-pytest-httpx
-python-pytest-isort
-python-pytest-lazy-fixture
-python-pytest-localserver
-python-pytest-metadata
-python-pytest-mock
-python-pytest-mpi
-python-pytest-mypy
-python-pytest-ordering
 python-pytest-pylint
-python-pytest-raises
-python-pytest-randomly
-python-pytest-regressions
-python-pytest-relaxed
-python-pytest-repeat
-python-pytest-rerunfailures
-python-pytest-responsemock
-python-pytest-runner
-python-pytest-services
-python-pytest-shutil
-python-pytest-socket
-python-pytest-subtesthack
 python-pytest-subtests
-python-pytest-sugar
-python-pytest-tap
-python-pytest-testinfra
-python-pytest-timeout
-python-pytest-tornado
-python-pytest-trio
-python-pytest-twisted
-python-pytest-vcr
-python-pytest-verbose-parametrize
 python-pytest-virtualenv
-python-pytest-xdist
-python-pytest-xprocess
-python-pytest-xvfb
+
 
 
 
