@@ -37,8 +37,6 @@ gptfdisk
 #grml-zsh-config
 hdparm
 intel-ucode
-ipw2100-fw
-ipw2200-fw
 irssi
 iw
 iwd
@@ -244,7 +242,7 @@ skanlite
 spectacle
 svgpart
 sweeper
-kio-confzero
+kio-zeroconf
 
 ###AUR
 plasma-runners-translator
@@ -295,7 +293,7 @@ ncmpcpp
 playerctl
 ardour
 youtube-dl
-mps-youtube
+#mps-youtube
 simplescreenrecorder
 obs-studio
 v4l2loopback-dkms
@@ -512,7 +510,6 @@ open-vm-tools
 lz4
 x11vnc
 tigervnc
-mps-youtube
 figlet
 scrapy
 docker
@@ -542,7 +539,7 @@ mpv
 
 ######### PYTHON ###########
 python-gnuplot
-python-pyghdl
+#python-pyghdl
 python-tensorflow-opt-cuda
 python-tensorflow-estimator
 python-keras
@@ -659,13 +656,11 @@ opencl-mesa
 opencl-nvidia
 intel-compute-runtime
 pocl
-ghdl-gcc
 verilator
 gsl
 eigen
 julia-bin
 rust
-rust-racer
 rust-analyzer
 go
 nodejs
@@ -696,7 +691,7 @@ geogebra
 gap
 maxima
 mysql-workbench
-wxmaxima
+#wxmaxima
 #celestia
 catch2
 doxygen
@@ -764,7 +759,7 @@ lightgbm
 #gwtool
 jaxodraw
 jaxodraw-latex
-jupyterlab-plotly
+#jupyterlab-plotly
 #python-plotly
 #python-jupytext
 #xgboost-git
@@ -785,7 +780,7 @@ rstudio-desktop-bin
 #lhc-dashboard-desktop
 #python-fastai
 #lalsuite-git
-hadoop
+#hadoop
 #hdtv
 #python-qutip
 #topcat
@@ -809,7 +804,7 @@ cppitertools
 gitkraken
 ttf-times-new-roman
 input-remapper-beta-git
-tllocalmgr-git
+#tllocalmgr-git
 mailspring
 simplenote-electron-bin
 alacritty-themes

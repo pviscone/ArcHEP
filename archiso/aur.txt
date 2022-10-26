@@ -72,7 +72,7 @@ lightgbm
 #gwtool
 jaxodraw
 jaxodraw-latex
-jupyterlab-plotly
+#jupyterlab-plotly
 #python-plotly
 #python-jupytext
 #xgboost-git
@@ -93,7 +93,7 @@ rstudio-desktop-bin
 #lhc-dashboard-desktop
 #python-fastai
 #lalsuite-git
-hadoop
+#hadoop
 #hdtv
 #fv
 #python-qutip
@@ -106,7 +106,7 @@ downgrade
 android-studio
 #espanso
 yoga-usage-mode
-wxmaxima
+#wxmaxima
 #stellarium
 elasticsearch
 soci
@@ -119,7 +119,7 @@ cppitertools
 gitkraken
 ttf-times-new-roman
 input-remapper-beta-git
-tllocalmgr-git
+#tllocalmgr-git
 mailspring
 #enpass-bin
 simplenote-electron-bin
