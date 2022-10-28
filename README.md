@@ -1,86 +1,46 @@
-# ALCI PURE ARCH
+It is an archiso configuration.
+The ISO includes the calamares graphic installer with the btrfs configuration (and ubuntu-like btrfs subvolumes for snapshots managmentent).
 
-This iso attempts to be the purest of Arch Linxu installations.
+> **Warning for Arch purists**: ArcHEP IS VERY BLOATED!!!
+>
+> ArcHEP ( KDE, X11, pipewire, btrfs) contains a lot of packages dedicated to machine learning, data analysis in high energy physics (root, GEANT4, etc.), coding and notetaking on 2-in-1 devices
+>
+> There are installed also a lot of drivers to run without problems on every device
 
-# Arch Linux Calamares Installer or ALCI
+**Need Archiso to run**
 
-Use the correct version of Archiso to build the iso.
+**All the packages installed are in the file archiso/packages.x86_64**
 
-**Read the archiso.md.**
+**WARNING**: the final ISO is large and the compression take a lot of time (5 hours on a i5 6600) 
 
-Download the content of the github with (use the terminal)
+You will find more info about archiso here: https://wiki.archlinux.org/title/Archiso
 
-`git clone https://github.com/arch-linux-calamares-installer/alci-iso-pure`
+# How to
 
-# Pacman.conf in archiso folder
+- Optional: If you want to put in the ISO you dotfiles you can add them in /archiso/airootfs/etc/skel . The skel folder is the folder that will be copied in your Home
 
-Only the archiso/pacman.conf will be used to download your packages.
+- Optional: If you want to add or remove some packages add/remove them in ./archiso/packages.x86_64
 
+- Optional: If you want to add or remove some services add/remove the links in the /archiso/airootfs/etc/systemd/system folder. See the ArchWiki for more info.
 
-# Pacman.conf in archiso/airootfs/etc/
+  You can see the services that i have enabled in ./archiso/services.txt
 
-This will be your future system. 
-Include the repositories you want.
-It will not be used to build the iso.
+1. Run ./archiso/aur_download.sh . It downloads the packages listed in aur.txt from the AUR, builds them and create a local repo in ./aur/aur_repo
 
+   **Note that some build can easily fail. Maybe some packages have some dependencies that are not in the Arch repos or the PKGBUILD file has to be modified. **
 
-# Archiso/packages.x86_64
+   **I have added the dependencies that have to be downloaded from the AUR in ./archiso/dependencies but i'm not sure that's all**
 
-Only the archiso/packages.x86-64 files will be used.
+   - For Update the AUR packages that you have already built you can run the update_aur.sh script
 
-Add more packages at the bottom of the file
+   
 
+2. Add the path of your custom repo ./aur/aur_repo in ./archiso/pacman.conf in the section [AUR] (you have to insert the complete path)
 
-# Build process
+3. Run a script in ./installation_scripts. The names is self explainatory
 
+4. You will find your ISO in \$HOME/alci_iso_pure_out (if you are done delete the folder $HOME/alci_build)
 
-Use the scripts from this folder:
+5. Install the OS with the BTRFS filesystem. The installer is tuned to install the BTRFS filesystem, i never tested etx4.
 
-<b>installation-scripts</b>
-
-Use script 30 and it will clean your pacman cache and redownload every package it needs.
-
-Use script 40 to use your current pacman cache - it will only download what is needed.
-
-You will find the iso in this folder:
-
- ~/Alci-Iso-Pure-Out
-
-Burn it with etcher or other tools and use it.
-
-
-
-
-# Tip
-
-Sometimes a "proc" folder stays mounted.
-
-Unmount it with this
-
-sudo umount /home/{username}/...  use the TAB
-
-
-
-# Tip
-
-Run into issues - remove all packages manually with
-
-`sudo pacman -Scc`
-
-and ensure they are all gone.
-
-
-# Tip
-
-When testing out the ALCI in virtualbox, you can use the alias 
-evb to enable and start virtualbox. As a result you can use your full resolution.
-
-
-
-# Tip
-
-When using gdm as display manager remember to delete the file /archiso/airootfs/etc/motd from your system. That files comes originally from Arch Linux.
-To avoid waiting for every login and this nice look.
-https://imgur.com/a/EvCN4pm
-
-
+6. After you have installed the OS delete the user pviscone (it is the liveuser, the installation doesn't remove it. My bad)
