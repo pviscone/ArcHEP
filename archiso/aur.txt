@@ -134,3 +134,5 @@ github-desktop-bin
 julia-bin
 morgen-bin
 marktext-bin
+lightly-qt
+lightlyshaders-git
