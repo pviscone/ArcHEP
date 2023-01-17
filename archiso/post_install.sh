@@ -5,7 +5,7 @@
 pacman -Syy
 paru
 ## PER PYTHON CONVIENE NON USARE SUDO CON PIP MA DEVI AGGIUNGERE PERCORSO AL PATH
-sudo pip install astropy numba gammapy lightgbm pymc3 scikit-image moviepy pyspark tensorflow-probability fastai scikit-hep pycbc gwpy backtrader cirq graph-nets aghast numpythia cabinetry pyhf fastjet pybumphunter conda keras-tuner plotly selenium thano
+sudo pip install astropy numba gammapy lightgbm pymc3 scikit-image moviepy pyspark tensorflow-probability fastai scikit-hep pycbc gwpy backtrader cirq graph-nets aghast numpythia cabinetry pyhf fastjet pybumphunter conda keras-tuner plotly selenium pytorch-lightning torch-geometric
 #
 sudo pip install latex2sympy2 inkscape-figures-vscode
 sudo rm -rf /etc/skel
@@ -29,11 +29,14 @@ sudo systemctl enable --now containerd.service #non so se serve, nel dubbio usal
 # NOTA: ho rimosso balloo, akonadi (opzioni in .config), tolti diversi servizi in background e messo le attività private per risparmiare ram: https://www.reddit.com/r/kde/comments/aoj2h0/comment/eg1f18a/
 # Se ti torna comodo metti nell'autoavvio mailspring e enpass
 
+# Configura e attiva dnscrypt-proxy
 
 #lista servizi
 systemctl list-unit-files | grep enabled
 # Disattiva servizi inutili per liberare ram
 sudo systemctl disable --now teamviewerd.service vboxservice.service docker.service containerd.service cloud-init.service cloud-config.service cloud-final.service cloud-init-local.service livecd-alsa-unmuter.service livecd-talk.service
+
+
 
 
 ###################################################################################################

@@ -136,3 +136,9 @@ morgen-bin
 marktext-bin
 lightly-qt
 lightlyshaders-git
+mendeley-reference-manager
+ruby-fusuma
+google-chrome
+captive-browser-git
+pytorch-lightning
+update-grub

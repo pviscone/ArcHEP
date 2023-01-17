@@ -551,6 +551,7 @@ python-uproot
 python-uproot-docs
 #python-uproot-methods
 python-pytorch-cuda
+python-torchvision-cuda
 python-virtualenv
 python-pipenv
 python-pip
@@ -827,3 +828,13 @@ sshpass
 lightly-qt
 lightlyshaders-git
 micro
+exa
+zenity
+grub-customizer
+dnscrypt-proxy
+mendeley-reference-manager
+ruby-fusuma
+google-chrome
+captive-browser-git
+pytorch-lightning
+update-grub
